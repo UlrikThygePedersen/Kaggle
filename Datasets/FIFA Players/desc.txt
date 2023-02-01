@@ -1,0 +1,9 @@
+Data Description
+
+The datasets provided include the players data for the Career Mode from FIFA 22. It only includes male football players with known wage.
+
+The goal is to predict the wage of the player based on his attributes.
+
+Attribute Description
+
+The features describe self-explanatory properties and skills of the player.

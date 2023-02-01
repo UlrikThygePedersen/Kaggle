@@ -1,0 +1,63 @@
+Description
+Data Description
+
+This dataset contains FPS measurement of video games executed on computers. Each row of the dataset describes the outcome of FPS measurement (outcome is attribute FPS) for a video game executed on a computer. A computer is characterized by the CPU and the GPU. For both the name is resolved to technical specifications (features starting with Cpu and Gpu).
+
+The technical specification of CPU and GPU are technical specification that describe the factory state of the respective component.
+
+The game is characterized by the name, the displayed resolution, and the quality setting that was adjusted during the measurement (features starting with Game).
+
+From the original data, only those observations are considered which Dataset feature's value is fps-benchmark, then the column is removed.
+
+Attribute Description
+
+CPU
+
+CpuNumberOfCores - number of physical cores
+CpuNumberOfThreads - number of threads
+CpuBaseClock - base clock in Mhz
+CpuCacheL1 - total size of level 1 cache in kB
+CpuCacheL2 - total size of level 2 cache in kB
+CpuCacheL3 - total size of level 3 cache in MB
+CpuDieSize - physical size of the die in square meter
+CpuFrequency - frequency in Mhz
+CpuMultiplier - multiplier of Cpu
+CpuMultiplierUnlocked - 0=multiplier locked, 1=multiplier unlocked
+CpuProcessSize - used process size in nanometer
+CpuTDP - thermal design power in watt
+CpuNumberOfTransistors - count of transistors in million
+CpuTurbo Clock - turbo clock in Mhz
+CpuName
+GPU
+
+GpuBandwidth bandwidth in MB/s
+GpuBaseClock base clock in MHz
+GpuBoostClock boost clock in MHz
+GpuNumberOfComputeUnits number of computing units
+GpuDieSize physical size of die in square meter
+GpuNumberOfExecutionUnits number of execution units
+GpuFP32Performance theoretical Float 32 performance in MFLOP/s
+GpuMemoryBus width of memory bus in bits
+GpuMemorySize size of memory in MB
+GpuPixelRate theoretical pixel rate in MPixel/s
+GpuProcessSize used process size in nanometer
+GpuNumberOfROPs number of render output units
+GpuNumberOfShadingUnits number of shading units
+GpuNumberOfTMUs number of texture mapping units
+GpuTextureRate theoretical texture rate in KTexel/s
+GpuNumberOfTransistors number of transistors in million
+GpuArchitecture architecture code
+GpuMemoryType memory type
+GpuOpenCL version of OpenCL
+GpuShaderModel version of shader model
+GpuVulkan version of Vulkan
+GpuOpenGL version of OpenGL
+GpuName
+GpuBus.interface - bus interface
+GpuDirectX
+GAME
+
+GameName
+GameResolution
+GameSetting
+FPS - target feature

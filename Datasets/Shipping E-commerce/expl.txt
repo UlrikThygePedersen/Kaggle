@@ -1,0 +1,15 @@
+% An international e-commerce company based wants to discover key insights from their customer database. 
+They want to use some of the most advanced machine learning techniques to study their customers. 
+The company sells electronic products
+@RELATION Shipping
+
+@ATTRIBUTE Customer_care_calls INTEGER
+@ATTRIBUTE Customer_rating INTEGER
+@ATTRIBUTE Prior_purchases INTEGER
+@ATTRIBUTE Discount_offered INTEGER
+@ATTRIBUTE Weight_in_gms INTEGER
+@ATTRIBUTE Warehouse_block {A, B, C, D, F}
+@ATTRIBUTE Mode_of_Shipment {Flight, Road, Ship}
+@ATTRIBUTE Product_importance {high, low, medium}
+@ATTRIBUTE Gender {F, M}
+@ATTRIBUTE class INTEGER

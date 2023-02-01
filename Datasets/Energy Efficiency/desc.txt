@@ -1,0 +1,19 @@
+Description
+Data Description
+
+This dataset looked into assessing the heating load and cooling load requirements of buildings (that is, energy efficiency) as a function of building parameters. Energy analysis is performed using 12 different building shapes simulated in Ecotect. The buildings differ with respect to the glazing area, the glazing area distribution, and the orientation, amongst other parameters. Various settings as functions of the afore-mentioned characteristics are simulated to obtain 768 building shapes (number of observations in the dataset).
+
+Attribute Description
+
+All features describe different properties for the building.
+
+relative_compactness
+surface_area
+wall_area
+roof_area
+overall_height
+orientation
+glazing_area
+glazing_area_distribution
+heating_load - one possible option for target feature
+cooling_load - one possible option for target feature
