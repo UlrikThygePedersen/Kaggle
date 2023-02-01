@@ -1,0 +1,36 @@
+% Finding which features are most important to job profitability
+@RELATION Job_Profitability
+
+@ATTRIBUTE Job_Number STRING
+@ATTRIBUTE Jobs_Gross_Margin_Percentage REAL
+@ATTRIBUTE Jobs_Gross_Margin REAL
+@ATTRIBUTE Labor_Pay REAL
+@ATTRIBUTE Labor_Burden REAL
+@ATTRIBUTE Material_Costs REAL
+@ATTRIBUTE PO_Costs REAL
+@ATTRIBUTE Labor REAL
+@ATTRIBUTE Equipment_Costs REAL
+@ATTRIBUTE Jobs_Total REAL
+@ATTRIBUTE Materials__Equip__POs_As_percent_of_Sales REAL
+@ATTRIBUTE Labor_Burden_as_percent_of_Sales REAL
+@ATTRIBUTE Labor_Pay_as_percent_of_Sales REAL
+@ATTRIBUTE Sold_Hours REAL
+@ATTRIBUTE Total_Hours_Worked REAL
+@ATTRIBUTE Total_Technician_Paid_Time REAL
+@ATTRIBUTE NonBillable_Hours REAL
+@ATTRIBUTE Jobs_Total_Costs REAL
+@ATTRIBUTE Is_Lead INTEGER
+@ATTRIBUTE Opportunity INTEGER
+@ATTRIBUTE Warranty INTEGER
+@ATTRIBUTE Recall INTEGER
+@ATTRIBUTE Converted INTEGER
+@ATTRIBUTE Jobs_Subtotal REAL
+@ATTRIBUTE Pricebook_Price REAL
+@ATTRIBUTE Income REAL
+@ATTRIBUTE Estimates INTEGER
+@ATTRIBUTE Jobs_Estimate_Sales_Subtotal REAL
+@ATTRIBUTE Jobs_Estimate_Sales_Installed REAL
+@ATTRIBUTE Materials__Equipment__PO_Costs REAL
+@ATTRIBUTE "Lead Generated From Source" STRING
+
+@DATA
